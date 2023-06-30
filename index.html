@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>child labour</title>
+</head>
+<body>
+    <div class="cimg">
+        <div class="navbar">
+            <nav>
+                
+                <ul class="unlist">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#Donate">Donate</a></li>
+                    <li><a href="#Blog">Blog</a></li>
+                    <li><a href="#Content">Content</a></li>
+                    <li><a href="#About">About</a></li>
+                </ul>
+                
+                <div class="toggle_btn">
+                    <i class="fa-solid fa-bars "></i>
+                </div>
+            </nav>
+        </div>
+        <div class="dropdown_menu open" >
+            <li><a href="#home">Home</a></li>
+            <li><a href="#Donate">Donate</a></li>
+            <li><a href="#Blog">Blog</a></li>
+            <li><a href="#Content">Content</a></li>
+            <li><a href="#About">About</a></li>
+        </div>
+        <script>
+            const toggleBtn=document.querySelector('.toggle_btn')
+            const toggleBtnIcon=document.querySelector('.toggle_btn i')
+            const dropDownMenu=document.querySelector('.dropdown_menu')
+
+            toggleBtn.onclick=function() {
+                dropDownMenu.classList.toggle('open')
+                const isOpen = dropDownMenu.classList.contains('open')
+                toggleBtnIcon.classList=isOpen
+                ?'fa-solid fa-xmark'
+                :'fa-solid fa-bars'
+            }
+        </script>
+        <br> <br> <br>
+        <h1 class="chla">child labour awarness camp on urban areas</h1>
+        <br>
+        <p style="text-align: center; font-size: 25px; color: white;">"A child's childhood is for learning, don't use their childhood for earning"</p>
+        <div class="al">
+        <a href="#" class="atag" >Visit us to know more</a></p>
+        <br><br>
+    </div>
+</div>
+<br>
+<h1 style="text-align: center;">Main reason for the child labour</h1>
+<br>
+
+<div class="paraf">
+    <div class="paracol" >
+        <h2 style="text-align: center;">poverty</h2>
+        <p style="padding: 2% 2% 2% 2%;">One of the primary causes of the child labour is poverty 
+            families living in poverty often struggle to meet their 
+            basic needs,and children are forced to work to contribute 
+            to household income
+        </p>
+    </div>
+    
+    <div  class="paracol">
+        <h2 style="text-align: center;">Lack of access to education</h2>
+        <p style="padding: 2% 2% 2% 2%;">Limited acesss to quality education perpetuates 
+            the cycle of child labour. inadequate or unaffordable 
+            schooling
+            options along with the cost of supplies and uniforms.
+        </p>
+    </div>
+
+    <div class="paracol">
+        <h2 style="text-align: center;">Work legal framework and enforcement</h2>
+        <p style="padding: 2% 2% 2% 2%;">in some regions ,inadequate legislation and weak enforcement
+    mechanisms contribute to the prevelence of child labour in sufficient
+    laws or lenient penalities</p>
+</div>
+</div>
+    <br>
+    <h1 style="text-align: center; ">Activity done in urban areas</h1>
+    <div class="urbanimg">
+        <div class="invisimg">
+            <img  class="height" src="images/urbanareaPic1.jpg" alt="urbanarea pictures">
+        </div>
+        <div  class="urbanheight">
+            <img style="height: 400px; width: 400px;" src="images/urbanareaPic2.jpg" alt="urbanarea pictures">
+        </div>
+        <div  class="urbanheight">
+            <img style="height: 400px; width: 400px;" src="images/urbanareaPic3.jpg" alt="">
+        </div>
+    </div>
+    <br>
+    <br>
+    <div>
+        <h1 style="text-align: center;">Main activities performed in my area</h1>
+    </div>
+
+    <div class="myarea">
+        <div class="brimg">
+            <img style="height:600px;padding-left: 10%; width: 500px; border-radius:20px;" src="images/myareaPic1.jpg" alt="myarea">
+        </div>
+        <div class="brgmg">
+            <img style="height:600px;padding-left: 30%; width: 800px; border-radius:20px "  src="images/myareaPic2.jpg" alt="myarea">
+        </div>
+
+    </div>
+    <br>
+    <br><br><br><br>
+    <div class="reshimg">
+        <img  style="height: 500px; border-radius: 25px; " src="images/myareaPic3.jpg"  alt="myarea">
+    </div>
+    <br>
+    <br>
+    <h1 style="text-align: center;">Ways to protect the child labour</h1>
+    <br><br>
+        <div class="protect">
+            <img src="images/waystoprotect.jpg" alt="protectchildlabour">
+        </div>
+    <br>
+    <br>
+    <div class="about">
+        <p class="para" align="center"><span style="font-size: 25px;"><h2>About us</h2> <br>G.reshma <br> 
+            21 jn1a0551 <br> 
+            8247485415</p>
+    </div>
+
+<br><br><br><br><br><br>
+</body>
+</html>
